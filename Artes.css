@@ -1,38 +1,36 @@
-*{
-    padding: 0;
-    margin: 0;
+* {
+    margin: 0; padding: 0;
 }
+
+@font-face {
+    font-family:"Grafitte" ;
+    src: url(src/fonts/graffiti_city/Graffiti\ City.otf);
+    }
+
+
 
 header {
-    background-color: #573e54;
-    width: auto;
-    height: 100px;
+    
 
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
 }
 
+img {
+   width: 100%;
+   position: absolute;
+}
+
+.titulo {
+    position: absolute;
+    color: #FFF;
+    font-family:"Grafitte";
+    text-decoration: none;
+    font-size: 60px;
+    padding-top: 340px;
+    padding-left: 51px;
+
+}
 nav {
     display: flex;
-    align-items: center;
-   
-    gap: 20px;
-
-}
-
-a {
-    text-decoration: none;
-    color: white;
-}
-.headerTitle {
-    width: 50px;
-    height: 50px;
-}
-
-.headerContent {
-    display: flex;
-    align-items: center;
-    
-    gap: 20px;
+    background-color: #D9D8D0;
+    height: 91px
 }
