@@ -85,19 +85,18 @@ h3 {
 }
 
 .pt3 {
-    font-size: 26px;
-    margin-top: px;
+    font-size: 40px;
+    padding-top: 100px;
 }
 
-.img10 {
-    width: 568px;
-    height: 710px;
-    float: right;
-    padding: 55px;
-    margin-top: 500px;
+.formatImage {
+    display: flex;
 }
 
-
+.pt4 {
+    font-size: 40px;
+    padding-top: 100px;
+}
 
 
 
