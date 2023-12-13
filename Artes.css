@@ -118,7 +118,6 @@ h3 {
 .itauimg {
     width: 682px;
     height: 475px;
-    padding-left: px;
 }
 
 .itauimg2 {
@@ -134,11 +133,28 @@ h3 {
 }
 
 .itautext {
-    padding-right:300px;
+    padding-right:250px;
     font-size: 33px;
-   
+    margin-top: 80px;
 }
 
+footer {
+    border-top: solid;
+    height: 168px;
+    border-color: #FFF;
+    color: #FFF;
+    margin-top: 650px;
+}
 
+.sobre {
+    color: #FFF;
+    font-size: 30px;
+    font color: #000;
+}
 
+/* .icons {
+    display: flex;
+    width: 40px;
+    height: 39px;
+} */
 
