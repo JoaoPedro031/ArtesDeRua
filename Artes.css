@@ -22,7 +22,6 @@
 .titulo {
         display: block;
         font-family: Grafitte;
-        color:#FFF;
         font-size: 70px;
         text-decoration: none;
         padding-left: 25px;
@@ -40,6 +39,12 @@ nav {
         align-items: center;
     }
 
+    a {
+        color: #FFF;
+        text-decoration: none;
+    
+    }
+
 nav > a {
     color: #000;
     text-decoration: none;
@@ -52,8 +57,15 @@ img {
     padding-left: 200px;
 }
 
-h3 {
+.pt1 {
     float: right;
+    font-size: 30px;
+    padding-right: 150px;
+    padding-top: 53px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFF;
+}
+h3 {
     font-size: 30px;
     padding-right: 90px;
     padding-left: 53px;
@@ -61,6 +73,10 @@ h3 {
     font-family: Arial, Helvetica, sans-serif;
     color: #FFF;
 }
+
+
+
+
 
 .pt2 {
     padding-top: 81px;
@@ -73,7 +89,6 @@ h3 {
 }
 
 .exposicaolixomania {
-    color: #FFF;
     display: flex;
     justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -107,7 +122,6 @@ h3 {
 }
 
 .itautittle {
-    color: #FFF;
     display: flex;
     justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -133,28 +147,37 @@ h3 {
 }
 
 .itautext {
-    padding-right:250px;
+ 
+    padding-left: 350px;
     font-size: 33px;
-    margin-top: 80px;
+    margin-top: 70px;
 }
 
 footer {
     border-top: solid;
     height: 168px;
     border-color: #FFF;
-    color: #FFF;
-    margin-top: 650px;
-}
-
-.sobre {
-    color: #FFF;
-    font-size: 30px;
-    font color: #000;
-}
-
-/* .icons {
+    margin-top: 73px;
     display: flex;
-    width: 40px;
-    height: 39px;
-} */
+    justify-content: center;
+    color: #FFF;
+    
+}
 
+div {   
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    padding-top: 64px;
+    padding-left: 130px;
+    
+    
+    
+
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    height:50px ;
+    width: 50px;
+}
