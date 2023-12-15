@@ -39,6 +39,10 @@ nav {
         align-items: center;
     }
 
+    h1 {
+        color: #FFF;
+    }
+
     a {
         color: #FFF;
         text-decoration: none;
@@ -51,7 +55,7 @@ nav > a {
 }
 
 
-img {
+.pixo {
     width: 50%;
     height: 862px;
     padding-left: 200px;
@@ -60,7 +64,6 @@ img {
 .pt1 {
     float: right;
     font-size: 30px;
-    padding-right: 150px;
     padding-top: 53px;
     font-family: Arial, Helvetica, sans-serif;
     color: #FFF;
@@ -84,8 +87,8 @@ h3 {
 }
 
 .exposicoes {
-    width: 1400px;
-    
+    width: 1300px;
+    padding-left: 30px;
 }
 
 .exposicaolixomania {
@@ -97,6 +100,7 @@ h3 {
 }
 .LixoMania {
     padding-top:72px ;
+    padding-left: 200px;
 }
 
 .pt3 {
@@ -130,6 +134,7 @@ h3 {
 }
 
 .itauimg {
+    padding-left: 250px;
     width: 682px;
     height: 475px;
 }
@@ -144,40 +149,41 @@ h3 {
 .itau {
     display: flex;
     padding-top: 57px;
+    gap: 30px;
 }
 
 .itautext {
- 
-    padding-left: 350px;
+    padding-left: 230px;
     font-size: 33px;
     margin-top: 70px;
 }
 
 footer {
     border-top: solid;
-    height: 168px;
+    height: 100px;
     border-color: #FFF;
     margin-top: 73px;
+    padding-top: 64px;
     display: flex;
     justify-content: center;
-    color: #FFF;
-    
-}
-
-div {   
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
-    padding-top: 64px;
-    padding-left: 130px;
-    
-    
-    
-
 }
 
 .icons {
+    padding-left:700px;
+    display: flex;
+    justify-content: center;  
+    height: 40px;
+    gap: 10px;
+}
+
+.sobre {
     display: flex;
     justify-content: center;
-    height:50px ;
-    width: 50px;
+    color: #FFF;
+    gap: 153px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    
 }
+
