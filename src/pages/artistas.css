@@ -7,8 +7,8 @@ body {
   background-color: #000;
 }
 
-.backgroundimg {
-  background-image: url(src/img/image\1\\(1\).png);
+.background-img {
+  background-image: url("src/img/image\1\\(1\).png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 500px;
