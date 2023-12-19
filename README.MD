@@ -6,4 +6,4 @@ este projeto tem o intuito de apresentar artes e artistas no mundo do grafite
 
 * HTML
 * CSS
-* JavaScript
+
