@@ -41,6 +41,12 @@ nav {
 
     h1 {
         color: #FFF;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    h3 {
+        color: #FFF;
+        font-family: Arial, Helvetica, sans-serif;
     }
 
     a {
@@ -54,3 +60,56 @@ nav > a {
     text-decoration: none;
 }
 
+.lixomaniapixo {
+    padding-left: 200px;
+}
+
+.description {
+    float: right;
+    padding-right: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titulolixomania {
+    font-size: 43px;
+    padding-left: 100px;
+}
+.descriçaolixomania {
+    font-size: 40px;
+    padding-top: 30px;
+}
+.lixomaniaart {
+    padding-top: 56px;
+    display: flex;
+    justify-content: center;
+    gap: 56px;
+
+}
+
+.img1 {
+    padding-top: 237px;
+    width: 700px;
+    height: 672px;
+}
+
+.img2 {
+    width: 617px;
+    height: 463px;
+    padding-right: 50px;
+
+}
+.coletivo {
+    font-family:sans-serif ;
+    font-size: 20px;
+    padding-left: 400px;
+}
+
+.osgemeos {
+    padding-top: 322px;
+    padding-left: 350px;
+    gap: 60px;
+}
+
+.tittlegemeos {
+    padding-left: 500px;
+}
