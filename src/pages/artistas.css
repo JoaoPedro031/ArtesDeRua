@@ -3,12 +3,17 @@
   padding: 0;
 }
 
+@font-face {
+  font-family: "Grafitte" ;
+  src: url(../fonts/graffiti_city/Graffiti\ City.otf);
+}
+
 body {
   background-color: #000;
 }
 
-.background-img {
-  background-image: url("src/img/image\1\\(1\).png");
+.backgroundimg {
+  background-image: url(../img/image\ 1\ \(1\).png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 500px;
@@ -16,7 +21,7 @@ body {
 
 .titulo {
   display: block;
-  font-family: Grafitte;
+  font-family: Grafitte ;
   font-size: 70px;
   text-decoration: none;
   padding-left: 25px;
@@ -47,6 +52,7 @@ h3 {
 a {
   color: #fff;
   text-decoration: none;
+  
 }
 
 nav > a {
@@ -104,4 +110,40 @@ nav > a {
 
 .tittlegemeos {
   padding-left: 500px;
+}
+
+.descriptiongemeos {
+  font-size: 30px;
+  padding-left: 450px;
+  padding-top: 50px;
+}
+
+
+footer {
+  border-top: solid;
+  height: 100px;
+  border-color: #fff;
+  margin-top: 73px;
+  padding-top: 64px;
+  display: flex;
+  justify-content: center;
+}
+
+.icons {
+  padding-left: 400px;
+  display: flex;
+  justify-content: center;
+  height: 40px;
+  gap: 10px;
+}
+
+.sobre {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  padding-left: 300px;
+  gap: 153px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: bold;
 }
